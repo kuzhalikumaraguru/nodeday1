@@ -1,0 +1,1 @@
+this is a synchronous way of writing the fileappending the data
