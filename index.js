@@ -2,7 +2,7 @@ const exp = require('express');
 const fs = require('fs');
 const path = require('path');
 const app = exp();
-const port = 8000;
+const port = process.env.port || 8000;
 app.use(exp.json());
 let files = [];
 const folderPath = path.join(__dirname, '/files');
